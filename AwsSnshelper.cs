@@ -135,6 +135,7 @@ namespace AmazonSNS
 
                 switch (FormID)
                 {
+                    case 1002:            /**/
                     EventType="Updated";
                     default:
                         break;
@@ -155,6 +156,12 @@ namespace AmazonSNS
                 throw ex;
             }
         }
+        public void SubscribeEvents(string emailaddress)
+        {
+            
+
+        }
         #endregion 
     }
+
 }
